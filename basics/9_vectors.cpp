@@ -31,7 +31,7 @@ int main()
     //adding an element
 
     std::vector<std::string> wishlist;
-    wishlist.push_back("Laptop");
+    wishlist.push_back("Laptop"); 
     wishlist.push_back("Dress");
     wishlist.push_back("Oculus");
     wishlist.push_back("Bag");
@@ -39,6 +39,7 @@ int main()
     wishlist.pop_back(); //removes "Bag"
     
     std::cout << wishlist.size();
+
     
 }
 
